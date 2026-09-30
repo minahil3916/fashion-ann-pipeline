@@ -23,3 +23,7 @@ Fashion-MNIST images into 10 clothing categories.
 ## Pipeline
 
 prepare → preprocess → train → evaluate
+
+## Status
+
+Pipeline setup completed.

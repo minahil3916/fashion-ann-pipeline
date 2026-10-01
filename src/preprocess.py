@@ -26,8 +26,8 @@ def main():
 
     print("Normalizing pixel values...")
 
-    x_train = x_train.astype("float32") / 255.0 - 0.5
-    x_test = x_test.astype("float32") / 255.0 - 0.5
+    x_train = x_train.astype("float32") / 127.5 - 1.0
+    x_test = x_test.astype("float32") / 127.5 - 1.0
 
     print("Creating training and validation sets...")
 
